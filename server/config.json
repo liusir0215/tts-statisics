@@ -1,11 +1,11 @@
 {
   "development": {
-    "username": "update me",
-    "password": "update me",
-    "database": "todos",
-    "host": "127.0.0.1",
-    "port": "5432",
-    "dialect": "postgres"
+    "username": "root",
+    "password": "myroot",
+    "database": "monitor_service",
+    "host": "199.155.122.203",
+    "port": "3306",
+    "dialect": "mysql"
   },
   "test": {
     "username": "update me",

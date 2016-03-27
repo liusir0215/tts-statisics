@@ -1,0 +1,12 @@
+include ./layout.jade
+
+block content
+	table
+		each todo in todoList
+			tr
+				td #{todo.id}
+				td #{todo.title}
+				td #{todo.complete}
+				td #{todo.UserId}
+				td #{todo.createdAt}
+				td #{todo.updatedAt}

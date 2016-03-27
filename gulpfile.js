@@ -27,7 +27,7 @@ var paths = {
 
 var nodemonConfig = {
   script: paths.server,
-  ext: 'html js css',
+  ext: 'jade js css',
   ignore: ['node_modules']
 };
 

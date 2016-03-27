@@ -2,11 +2,9 @@
 var fs = require('fs');
 var path = require('path');
 var basename = path.resolve(__dirname, path.basename(module.filename));
-var express = require('express');
-var router = express.Router();
 
-var fileArray = [];
 
+var fileArray = [], controllers = {};
 
 (function readdir(dirname){
   fs
@@ -19,7 +17,7 @@ var fileArray = [];
 
 fileArray
   .forEach(function(file) {
-    router.use(require(file));
+    Object.assign(controllers, require(file));
   });
 
-module.exports = router;
+module.exports = controllers;
