@@ -1,11 +1,11 @@
 {
   "development": {
-    "username": "root",
-    "password": "myroot",
-    "database": "monitor_service",
-    "host": "199.155.122.203",
-    "port": "3306",
-    "dialect": "mysql"
+    "username": "update me",
+    "password": "update me",
+    "database": "update me",
+    "host": "update me",
+    "port": "update me",
+    "dialect": "update me"
   },
   "test": {
     "username": "update me",
