@@ -5,7 +5,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-//var swig = require('swig');
+var helmet = require('helmet');
 
 
 // *** routes *** //
@@ -27,6 +27,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 // *** config middleware *** //
+app.use(helmet());
 app.use(logger('dev')); 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));

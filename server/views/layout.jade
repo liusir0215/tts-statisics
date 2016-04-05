@@ -1,15 +1,27 @@
 doctype html
 html
   head
+    meta(http-equiv='Content-Type', Content='text/html, charset=UTF-8')
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(name='description', content='杭州淘淘搜科技有限公司统计后台')
     meta(http-equiv='X-UA-Compatible', content='IE=Edage, chrome=1')
     title #{ title }
     link(rel='stylesheet', href='/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='/metismenu/dist/metisMenu.css')
+    link(rel='stylesheet', href='/css/lib/timeline.css')
+    link(rel='stylesheet', href='/css/lib/sb-admin-2.css')
+    link(rel='stylesheet', href='/font-awesome/css/font-awesome.css')
     link(rel='stylesheet', href='/css/main.css')
+    link(rel='shortcut icon', href='/images/icon/favicon7.ico')
+    //script(src='/js/lib/modernizr.js')
   body
-  block content
+    div#wrapper
+      include ./nav.jade
+      div(id="page-wrapper", style="min-height: 248px")
+        block content
     script(src='/jquery/dist/jquery.min.js')
     script(src='/bootstrap/dist/js/bootstrap.js')
-    script(src='/js/main.js')
+    script(src='/metismenu/dist/metisMenu.js')
+    script(async, src='/js/lib/sb-admin-2.js')
+    script(async, src='/js/main.js')

@@ -1,7 +1,10 @@
-include ./layout.jade
+extends ./layout.jade
 
 block content
-	table
+	div(class="row")
+		div(class="col-lg-12")
+			h1(class="page-header") 首页
+	table(class="table table-bordered table-hover table-striped")
 		each todo in todoList
 			tr
 				td #{todo.id}

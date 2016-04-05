@@ -1,0 +1,578 @@
+#page-wrapper(style='min-height: 248px;')
+  .row
+    .col-lg-12
+      h1.page-header Dashboard
+    // /.col-lg-12
+  // /.row
+  .row
+    .col-lg-3.col-md-6
+      .panel.panel-primary
+        .panel-heading
+          .row
+            .col-xs-3
+              i.fa.fa-comments.fa-5x
+            .col-xs-9.text-right
+              .huge 26
+              div New Comments!
+        a(href='#')
+          .panel-footer
+            span.pull-left View Details
+            span.pull-right
+              i.fa.fa-arrow-circle-right
+            .clearfix
+    .col-lg-3.col-md-6
+      .panel.panel-green
+        .panel-heading
+          .row
+            .col-xs-3
+              i.fa.fa-tasks.fa-5x
+            .col-xs-9.text-right
+              .huge 12
+              div New Tasks!
+        a(href='#')
+          .panel-footer
+            span.pull-left View Details
+            span.pull-right
+              i.fa.fa-arrow-circle-right
+            .clearfix
+    .col-lg-3.col-md-6
+      .panel.panel-yellow
+        .panel-heading
+          .row
+            .col-xs-3
+              i.fa.fa-shopping-cart.fa-5x
+            .col-xs-9.text-right
+              .huge 124
+              div New Orders!
+        a(href='#')
+          .panel-footer
+            span.pull-left View Details
+            span.pull-right
+              i.fa.fa-arrow-circle-right
+            .clearfix
+    .col-lg-3.col-md-6
+      .panel.panel-red
+        .panel-heading
+          .row
+            .col-xs-3
+              i.fa.fa-support.fa-5x
+            .col-xs-9.text-right
+              .huge 13
+              div Support Tickets!
+        a(href='#')
+          .panel-footer
+            span.pull-left View Details
+            span.pull-right
+              i.fa.fa-arrow-circle-right
+            .clearfix
+  // /.row
+  .row
+    .col-lg-8
+      .panel.panel-default
+        .panel-heading
+          i.fa.fa-bar-chart-o.fa-fw
+          |  Area Chart Example
+          .pull-right
+            .btn-group
+              button.btn.btn-default.btn-xs.dropdown-toggle(type='button', data-toggle='dropdown')
+                | Actions
+                span.caret
+              ul.dropdown-menu.pull-right(role='menu')
+                li
+                  a(href='#') Action
+                li
+                  a(href='#') Another action
+                li
+                  a(href='#') Something else here
+                li.divider
+                li
+                  a(href='#') Separated link
+        // /.panel-heading
+        .panel-body
+          #morris-area-chart(style='position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+            svg(height='372', version='1.1', width='1019', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', style='overflow: hidden; position: relative;')
+              desc(style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') Created with Rapha&euml;l 2.1.2
+              defs(style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              text(x='48.5', y='340', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 0
+              path(fill='none', stroke='#aaaaaa', d='M61,340H994', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              text(x='48.5', y='261.25', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 7,500
+              path(fill='none', stroke='#aaaaaa', d='M61,261.25H994', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              text(x='48.5', y='182.5', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 15,000
+              path(fill='none', stroke='#aaaaaa', d='M61,182.5H994', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              text(x='48.5', y='103.74999999999997', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                tspan(dy='3.9999999999999716', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 22,500
+              path(fill='none', stroke='#aaaaaa', d='M61,103.74999999999997H994', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              text(x='48.5', y='25', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 30,000
+              path(fill='none', stroke='#aaaaaa', d='M61,25H994', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              text(x='994', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2012-06
+              text(x='924.8469015795869', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2012-04
+              text(x='856.827460510328', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2012-02
+              text(x='786.5407047387606', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2011-12
+              text(x='717.3876063183475', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2011-10
+              text(x='648.2345078979343', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2011-08
+              text(x='579.0814094775212', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2011-06
+              text(x='509.92831105710815', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2011-04
+              text(x='443.04252733900364', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2011-02
+              text(x='372.75577156743617', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2010-12
+              text(x='303.6026731470231', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2010-10
+              text(x='234.44957472660997', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2010-08
+              text(x='165.29647630619684', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2010-06
+              text(x='96.1433778857837', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2010-04
+              path(fill='#7cb47c', stroke='none', d='M61,284.2135C87.07411907654921,278.4385,139.22235722964763,266.45406249999996,165.29647630619684,261.1135C191.37059538274605,255.77293749999998,243.51883353584446,248.79998360655736,269.5929526123937,241.48899999999998C295.3836573511543,234.25748360655734,346.96506682867556,205.10129350828728,372.75577156743617,202.9435C398.26306196840824,200.8094185082873,449.2776427703523,222.75212499999998,474.7849331713244,224.3215C500.8590522478736,225.92575,553.007290400972,214.56962499999997,579.0814094775212,215.63799999999998C605.1555285540704,216.70637499999998,657.3037667071688,251.83350819672128,683.377885783718,232.86849999999998C709.1685905224787,214.1096331967213,760.75,73.89325000000001,786.5407047387606,64.7425C812.3314094775212,55.591750000000005,863.9128189550426,146.24503483606557,889.7035236938032,159.6625C915.7776427703524,173.22740983606556,967.9258809234508,169.419625,994,172.672L994,340L61,340Z', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+              path(fill='none', stroke='#4da74d', d='M61,284.2135C87.07411907654921,278.4385,139.22235722964763,266.45406249999996,165.29647630619684,261.1135C191.37059538274605,255.77293749999998,243.51883353584446,248.79998360655736,269.5929526123937,241.48899999999998C295.3836573511543,234.25748360655734,346.96506682867556,205.10129350828728,372.75577156743617,202.9435C398.26306196840824,200.8094185082873,449.2776427703523,222.75212499999998,474.7849331713244,224.3215C500.8590522478736,225.92575,553.007290400972,214.56962499999997,579.0814094775212,215.63799999999998C605.1555285540704,216.70637499999998,657.3037667071688,251.83350819672128,683.377885783718,232.86849999999998C709.1685905224787,214.1096331967213,760.75,73.89325000000001,786.5407047387606,64.7425C812.3314094775212,55.591750000000005,863.9128189550426,146.24503483606557,889.7035236938032,159.6625C915.7776427703524,173.22740983606556,967.9258809234508,169.419625,994,172.672', stroke-width='3', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='61', cy='284.2135', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='165.29647630619684', cy='261.1135', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='269.5929526123937', cy='241.48899999999998', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='372.75577156743617', cy='202.9435', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='474.7849331713244', cy='224.3215', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='579.0814094775212', cy='215.63799999999998', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='683.377885783718', cy='232.86849999999998', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='786.5407047387606', cy='64.7425', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='889.7035236938032', cy='159.6625', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='994', cy='172.672', r='2', fill='#4da74d', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              path(fill='#a7b3bc', stroke='none', d='M61,312.007C87.07411907654921,305.69125,139.22235722964763,292.27618750000005,165.29647630619684,286.744C191.37059538274605,281.2118125,243.51883353584446,270.77418852459016,269.5929526123937,267.7495C295.3836573511543,264.75768852459015,346.96506682867556,265.1103017955801,372.75577156743617,262.678C398.26306196840824,260.2724267955801,449.2776427703523,251.77170192307693,474.7849331713244,248.398C500.8590522478736,244.9493269230769,553.007290400972,235.24543749999998,579.0814094775212,235.3885C605.1555285540704,235.5315625,657.3037667071688,264.1605081967213,683.377885783718,249.5425C709.1685905224787,235.0833831967213,760.75,127.65324999999999,786.5407047387606,119.07999999999998C812.3314094775212,110.50674999999998,863.9128189550426,171.95626434426228,889.7035236938032,180.95649999999998C915.7776427703524,190.05563934426226,967.9258809234508,188.84724999999997,994,191.4775L994,340L61,340Z', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+              path(fill='none', stroke='#7a92a3', d='M61,312.007C87.07411907654921,305.69125,139.22235722964763,292.27618750000005,165.29647630619684,286.744C191.37059538274605,281.2118125,243.51883353584446,270.77418852459016,269.5929526123937,267.7495C295.3836573511543,264.75768852459015,346.96506682867556,265.1103017955801,372.75577156743617,262.678C398.26306196840824,260.2724267955801,449.2776427703523,251.77170192307693,474.7849331713244,248.398C500.8590522478736,244.9493269230769,553.007290400972,235.24543749999998,579.0814094775212,235.3885C605.1555285540704,235.5315625,657.3037667071688,264.1605081967213,683.377885783718,249.5425C709.1685905224787,235.0833831967213,760.75,127.65324999999999,786.5407047387606,119.07999999999998C812.3314094775212,110.50674999999998,863.9128189550426,171.95626434426228,889.7035236938032,180.95649999999998C915.7776427703524,190.05563934426226,967.9258809234508,188.84724999999997,994,191.4775', stroke-width='3', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='61', cy='312.007', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='165.29647630619684', cy='286.744', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='269.5929526123937', cy='267.7495', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='372.75577156743617', cy='262.678', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='474.7849331713244', cy='248.398', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='579.0814094775212', cy='235.3885', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='683.377885783718', cy='249.5425', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='786.5407047387606', cy='119.07999999999998', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='889.7035236938032', cy='180.95649999999998', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='994', cy='191.4775', r='2', fill='#7a92a3', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              path(fill='#2577b5', stroke='none', d='M61,312.007C87.07411907654921,311.713,139.22235722964763,313.778875,165.29647630619684,310.831C191.37059538274605,307.883125,243.51883353584446,289.7291557377049,269.5929526123937,288.424C295.3836573511543,287.13303073770487,346.96506682867556,302.951388121547,372.75577156743617,300.4465C398.26306196840824,297.96913812154696,449.2776427703523,270.9652403846154,474.7849331713244,268.495C500.8590522478736,265.9698653846154,553.007290400972,277.853125,579.0814094775212,280.465C605.1555285540704,283.076875,657.3037667071688,301.7988770491803,683.377885783718,289.39C709.1685905224787,277.11600204918034,760.75,189.43393749999998,786.5407047387606,181.7335C812.3314094775212,174.0330625,863.9128189550426,219.1178176229508,889.7035236938032,227.7865C915.7776427703524,236.5504426229508,967.9258809234508,245.544625,994,251.464L994,340L61,340Z', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+              path(fill='none', stroke='#0b62a4', d='M61,312.007C87.07411907654921,311.713,139.22235722964763,313.778875,165.29647630619684,310.831C191.37059538274605,307.883125,243.51883353584446,289.7291557377049,269.5929526123937,288.424C295.3836573511543,287.13303073770487,346.96506682867556,302.951388121547,372.75577156743617,300.4465C398.26306196840824,297.96913812154696,449.2776427703523,270.9652403846154,474.7849331713244,268.495C500.8590522478736,265.9698653846154,553.007290400972,277.853125,579.0814094775212,280.465C605.1555285540704,283.076875,657.3037667071688,301.7988770491803,683.377885783718,289.39C709.1685905224787,277.11600204918034,760.75,189.43393749999998,786.5407047387606,181.7335C812.3314094775212,174.0330625,863.9128189550426,219.1178176229508,889.7035236938032,227.7865C915.7776427703524,236.5504426229508,967.9258809234508,245.544625,994,251.464', stroke-width='3', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='61', cy='312.007', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='165.29647630619684', cy='310.831', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='269.5929526123937', cy='288.424', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='372.75577156743617', cy='300.4465', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='474.7849331713244', cy='268.495', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='579.0814094775212', cy='280.465', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='683.377885783718', cy='289.39', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='786.5407047387606', cy='181.7335', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='889.7035236938032', cy='227.7865', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              circle(cx='994', cy='251.464', r='2', fill='#0b62a4', stroke='#ffffff', stroke-width='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+            .morris-hover.morris-default-style(style='left: 415.785px; top: 160px; display: block;')
+              .morris-hover-row-label 2011 Q1
+              .morris-hover-point(style='color: #0b62a4')
+                | iPhone:
+                | 6,810
+              .morris-hover-point(style='color: #7A92A3')
+                | iPad:
+                | 1,914
+              .morris-hover-point(style='color: #4da74d')
+                | iPod Touch:
+                | 2,293
+        // /.panel-body
+      // /.panel
+      .panel.panel-default
+        .panel-heading
+          i.fa.fa-bar-chart-o.fa-fw
+          |  Bar Chart Example
+          .pull-right
+            .btn-group
+              button.btn.btn-default.btn-xs.dropdown-toggle(type='button', data-toggle='dropdown')
+                | Actions
+                span.caret
+              ul.dropdown-menu.pull-right(role='menu')
+                li
+                  a(href='#') Action
+                li
+                  a(href='#') Another action
+                li
+                  a(href='#') Something else here
+                li.divider
+                li
+                  a(href='#') Separated link
+        // /.panel-heading
+        .panel-body
+          .row
+            .col-lg-4
+              .table-responsive
+                table.table.table-bordered.table-hover.table-striped
+                  thead
+                    tr
+                      th #
+                      th Date
+                      th Time
+                      th Amount
+                  tbody
+                    tr
+                      td 3326
+                      td 10/21/2013
+                      td 3:29 PM
+                      td $321.33
+                    tr
+                      td 3325
+                      td 10/21/2013
+                      td 3:20 PM
+                      td $234.34
+                    tr
+                      td 3324
+                      td 10/21/2013
+                      td 3:03 PM
+                      td $724.17
+                    tr
+                      td 3323
+                      td 10/21/2013
+                      td 3:00 PM
+                      td $23.71
+                    tr
+                      td 3322
+                      td 10/21/2013
+                      td 2:49 PM
+                      td $8345.23
+                    tr
+                      td 3321
+                      td 10/21/2013
+                      td 2:23 PM
+                      td $245.12
+                    tr
+                      td 3320
+                      td 10/21/2013
+                      td 2:15 PM
+                      td $5663.54
+                    tr
+                      td 3319
+                      td 10/21/2013
+                      td 2:13 PM
+                      td $943.45
+              // /.table-responsive
+            // /.col-lg-4 (nested)
+            .col-lg-8
+              #morris-bar-chart(style='position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+                svg(height='372', version='1.1', width='670', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', style='overflow: hidden; position: relative; left: -0.765625px;')
+                  desc(style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') Created with Rapha&euml;l 2.1.2
+                  defs(style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+                  text(x='30.5', y='340', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 0
+                  path(fill='none', stroke='#aaaaaa', d='M43,340H645', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+                  text(x='30.5', y='261.25', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 25
+                  path(fill='none', stroke='#aaaaaa', d='M43,261.25H645', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+                  text(x='30.5', y='182.5', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 50
+                  path(fill='none', stroke='#aaaaaa', d='M43,182.5H645', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+                  text(x='30.5', y='103.75', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 75
+                  path(fill='none', stroke='#aaaaaa', d='M43,103.75H645', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+                  text(x='30.5', y='25', text-anchor='end', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 100
+                  path(fill='none', stroke='#aaaaaa', d='M43,25H645', stroke-width='0.5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+                  text(x='602', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2012
+                  text(x='516', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2011
+                  text(x='430', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2010
+                  text(x='344', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2009
+                  text(x='258', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2008
+                  text(x='172', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2007
+                  text(x='86', y='352.5', text-anchor='middle', font-family='sans-serif', font-size='12px', stroke='none', fill='#888888', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;', font-weight='normal', transform='matrix(1,0,0,1,0,6)')
+                    tspan(dy='4', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 2006
+                  rect(x='53.75', y='25', width='30.75', height='315', rx='0', ry='0', fill='#0b62a4', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='87.5', y='56.5', width='30.75', height='283.5', rx='0', ry='0', fill='#7a92a3', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='139.75', y='103.75', width='30.75', height='236.25', rx='0', ry='0', fill='#0b62a4', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='173.5', y='135.25', width='30.75', height='204.75', rx='0', ry='0', fill='#7a92a3', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='225.75', y='182.5', width='30.75', height='157.5', rx='0', ry='0', fill='#0b62a4', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='259.5', y='214', width='30.75', height='126', rx='0', ry='0', fill='#7a92a3', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='311.75', y='103.75', width='30.75', height='236.25', rx='0', ry='0', fill='#0b62a4', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='345.5', y='135.25', width='30.75', height='204.75', rx='0', ry='0', fill='#7a92a3', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='397.75', y='182.5', width='30.75', height='157.5', rx='0', ry='0', fill='#0b62a4', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='431.5', y='214', width='30.75', height='126', rx='0', ry='0', fill='#7a92a3', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='483.75', y='103.75', width='30.75', height='236.25', rx='0', ry='0', fill='#0b62a4', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='517.5', y='135.25', width='30.75', height='204.75', rx='0', ry='0', fill='#7a92a3', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='569.75', y='25', width='30.75', height='315', rx='0', ry='0', fill='#0b62a4', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                  rect(x='603.5', y='56.5', width='30.75', height='283.5', rx='0', ry='0', fill='#7a92a3', stroke='none', fill-opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;')
+                .morris-hover.morris-default-style(style='left: 386px; top: 136px; display: none;')
+                  .morris-hover-row-label 2010
+                  .morris-hover-point(style='color: #0b62a4')
+                    | Series A:
+                    | 50
+                  .morris-hover-point(style='color: #7a92a3')
+                    | Series B:
+                    | 40
+            // /.col-lg-8 (nested)
+          // /.row
+        // /.panel-body
+      // /.panel
+      .panel.panel-default
+        .panel-heading
+          i.fa.fa-clock-o.fa-fw
+          |  Responsive Timeline
+        // /.panel-heading
+        .panel-body
+          ul.timeline
+            li
+              .timeline-badge
+                i.fa.fa-check
+              .timeline-panel
+                .timeline-heading
+                  h4.timeline-title Lorem ipsum dolor
+                  p
+                    small.text-muted
+                      i.fa.fa-clock-o
+                      |  11 hours ago via Twitter
+                .timeline-body
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laboriosam dolor perspiciatis omnis exercitationem. Beatae, officia pariatur? Est cum veniam excepturi. Maiores praesentium, porro voluptas suscipit facere rem dicta, debitis.
+            li.timeline-inverted
+              .timeline-badge.warning
+                i.fa.fa-credit-card
+              .timeline-panel
+                .timeline-heading
+                  h4.timeline-title Lorem ipsum dolor
+                .timeline-body
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem quibusdam, tenetur commodi provident cumque magni voluptatem libero, quis rerum. Fugiat esse debitis optio, tempore. Animi officiis alias, officia repellendus.
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maiores odit qui est tempora eos, nostrum provident explicabo dignissimos debitis vel! Adipisci eius voluptates, ad aut recusandae minus eaque facere.
+            li
+              .timeline-badge.danger
+                i.fa.fa-bomb
+              .timeline-panel
+                .timeline-heading
+                  h4.timeline-title Lorem ipsum dolor
+                .timeline-body
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus numquam facilis enim eaque, tenetur nam id qui vel velit similique nihil iure molestias aliquam, voluptatem totam quaerat, magni commodi quisquam.
+            li.timeline-inverted
+              .timeline-panel
+                .timeline-heading
+                  h4.timeline-title Lorem ipsum dolor
+                .timeline-body
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates est quaerat asperiores sapiente, eligendi, nihil. Itaque quos, alias sapiente rerum quas odit! Aperiam officiis quidem delectus libero, omnis ut debitis!
+            li
+              .timeline-badge.info
+                i.fa.fa-save
+              .timeline-panel
+                .timeline-heading
+                  h4.timeline-title Lorem ipsum dolor
+                .timeline-body
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis minus modi quam ipsum alias at est molestiae excepturi delectus nesciunt, quibusdam debitis amet, beatae consequuntur impedit nulla qui! Laborum, atque.
+                  hr
+                  .btn-group
+                    button.btn.btn-primary.btn-sm.dropdown-toggle(type='button', data-toggle='dropdown')
+                      i.fa.fa-gear
+                      span.caret
+                    ul.dropdown-menu(role='menu')
+                      li
+                        a(href='#') Action
+                      li
+                        a(href='#') Another action
+                      li
+                        a(href='#') Something else here
+                      li.divider
+                      li
+                        a(href='#') Separated link
+            li
+              .timeline-panel
+                .timeline-heading
+                  h4.timeline-title Lorem ipsum dolor
+                .timeline-body
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi fuga odio quibusdam. Iure expedita, incidunt unde quis nam! Quod, quisquam. Officia quam qui adipisci quas consequuntur nostrum sequi. Consequuntur, commodi.
+            li.timeline-inverted
+              .timeline-badge.success
+                i.fa.fa-graduation-cap
+              .timeline-panel
+                .timeline-heading
+                  h4.timeline-title Lorem ipsum dolor
+                .timeline-body
+                  p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt obcaecati, quaerat tempore officia voluptas debitis consectetur culpa amet, accusamus dolorum fugiat, animi dicta aperiam, enim incidunt quisquam maxime neque eaque.
+        // /.panel-body
+      // /.panel
+    // /.col-lg-8
+    .col-lg-4
+      .panel.panel-default
+        .panel-heading
+          i.fa.fa-bell.fa-fw
+          |  Notifications Panel
+        // /.panel-heading
+        .panel-body
+          .list-group
+            a.list-group-item(href='#')
+              i.fa.fa-comment.fa-fw
+              |  New Comment
+              span.pull-right.text-muted.small
+                em 4 minutes ago
+            a.list-group-item(href='#')
+              i.fa.fa-twitter.fa-fw
+              |  3 New Followers
+              span.pull-right.text-muted.small
+                em 12 minutes ago
+            a.list-group-item(href='#')
+              i.fa.fa-envelope.fa-fw
+              |  Message Sent
+              span.pull-right.text-muted.small
+                em 27 minutes ago
+            a.list-group-item(href='#')
+              i.fa.fa-tasks.fa-fw
+              |  New Task
+              span.pull-right.text-muted.small
+                em 43 minutes ago
+            a.list-group-item(href='#')
+              i.fa.fa-upload.fa-fw
+              |  Server Rebooted
+              span.pull-right.text-muted.small
+                em 11:32 AM
+            a.list-group-item(href='#')
+              i.fa.fa-bolt.fa-fw
+              |  Server Crashed!
+              span.pull-right.text-muted.small
+                em 11:13 AM
+            a.list-group-item(href='#')
+              i.fa.fa-warning.fa-fw
+              |  Server Not Responding
+              span.pull-right.text-muted.small
+                em 10:57 AM
+            a.list-group-item(href='#')
+              i.fa.fa-shopping-cart.fa-fw
+              |  New Order Placed
+              span.pull-right.text-muted.small
+                em 9:49 AM
+            a.list-group-item(href='#')
+              i.fa.fa-money.fa-fw
+              |  Payment Received
+              span.pull-right.text-muted.small
+                em Yesterday
+          // /.list-group
+          a.btn.btn-default.btn-block(href='#') View All Alerts
+        // /.panel-body
+      // /.panel
+      .panel.panel-default
+        .panel-heading
+          i.fa.fa-bar-chart-o.fa-fw
+          |  Donut Chart Example
+        .panel-body
+          #morris-donut-chart
+            svg(height='372', version='1.1', width='479', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', style='overflow: hidden; position: relative; left: -0.328125px;')
+              desc(style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') Created with Rapha&euml;l 2.1.2
+              defs(style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              path(fill='none', stroke='#0b62a4', d='M239.5,307.5A119,119,0,0,0,351.80097123493283,227.8635854526844', stroke-width='2', opacity='0', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0;')
+              path(fill='#0b62a4', stroke='#ffffff', d='M239.5,310.5A122,122,0,0,0,354.6320881568219,228.8559447498109L403.2329286492508,245.89144601714912A173.5,173.5,0,0,1,239.5,362Z', stroke-width='3', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              path(fill='none', stroke='#3980b5', d='M351.80097123493283,227.8635854526844A119,119,0,0,0,132.7435755533291,135.92561612950422', stroke-width='2', opacity='1', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 1;')
+              path(fill='#3980b5', stroke='#ffffff', d='M354.6320881568219,228.8559447498109A122,122,0,0,0,130.05223712190042,134.60021149411358L79.36536332999364,109.63842419425632A178.5,178.5,0,0,1,407.95145685239925,247.5453781790266Z', stroke-width='3', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              path(fill='none', stroke='#679dc6', d='M132.7435755533291,135.92561612950422A119,119,0,0,0,239.46261504803715,307.4999941275854', stroke-width='2', opacity='0', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); opacity: 0;')
+              path(fill='#679dc6', stroke='#ffffff', d='M130.05223712190042,134.60021149411358A122,122,0,0,0,239.46167257025658,310.4999939795414L239.4454933683567,361.9999914381183A173.5,173.5,0,0,1,83.85092738237478,111.84743191990741Z', stroke-width='3', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);')
+              text(x='239.5', y='178.5', text-anchor='middle', font-family='"Arial"', font-size='15px', stroke='none', fill='#000000', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 15px; font-weight: 800;', font-weight='800', transform='matrix(1.8466,0,0,1.8466,-202.7491,-160.4216)', stroke-width='0.5415499533146592')
+                tspan(dy='6', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') In-Store Sales
+              text(x='239.5', y='198.5', text-anchor='middle', font-family='"Arial"', font-size='14px', stroke='none', fill='#000000', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: Arial; font-size: 14px;', transform='matrix(2.4792,0,0,2.4792,-354.2604,-281.7813)', stroke-width='0.40336134453781514')
+                tspan(dy='5', style='-webkit-tap-highlight-color: rgba(0, 0, 0, 0);') 30
+          a.btn.btn-default.btn-block(href='#') View Details
+        // /.panel-body
+      // /.panel
+      .chat-panel.panel.panel-default
+        .panel-heading
+          i.fa.fa-comments.fa-fw
+          |                             Chat
+          .btn-group.pull-right
+            button.btn.btn-default.btn-xs.dropdown-toggle(type='button', data-toggle='dropdown')
+              i.fa.fa-chevron-down
+            ul.dropdown-menu.slidedown
+              li
+                a(href='#')
+                  i.fa.fa-refresh.fa-fw
+                  |  Refresh
+              li
+                a(href='#')
+                  i.fa.fa-check-circle.fa-fw
+                  |  Available
+              li
+                a(href='#')
+                  i.fa.fa-times.fa-fw
+                  |  Busy
+              li
+                a(href='#')
+                  i.fa.fa-clock-o.fa-fw
+                  |  Away
+              li.divider
+              li
+                a(href='#')
+                  i.fa.fa-sign-out.fa-fw
+                  |  Sign Out
+        // /.panel-heading
+        .panel-body
+          ul.chat
+            li.left.clearfix
+              span.chat-img.pull-left
+                img.img-circle(src='http://placehold.it/50/55C1E7/fff', alt='User Avatar')
+              .chat-body.clearfix
+                .header
+                  strong.primary-font Jack Sparrow
+                  small.pull-right.text-muted
+                    i.fa.fa-clock-o.fa-fw
+                    |  12 mins ago
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+            li.right.clearfix
+              span.chat-img.pull-right
+                img.img-circle(src='http://placehold.it/50/FA6F57/fff', alt='User Avatar')
+              .chat-body.clearfix
+                .header
+                  small.text-muted
+                    i.fa.fa-clock-o.fa-fw
+                    |  13 mins ago
+                  strong.pull-right.primary-font Bhaumik Patel
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+            li.left.clearfix
+              span.chat-img.pull-left
+                img.img-circle(src='http://placehold.it/50/55C1E7/fff', alt='User Avatar')
+              .chat-body.clearfix
+                .header
+                  strong.primary-font Jack Sparrow
+                  small.pull-right.text-muted
+                    i.fa.fa-clock-o.fa-fw
+                    |  14 mins ago
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+            li.right.clearfix
+              span.chat-img.pull-right
+                img.img-circle(src='http://placehold.it/50/FA6F57/fff', alt='User Avatar')
+              .chat-body.clearfix
+                .header
+                  small.text-muted
+                    i.fa.fa-clock-o.fa-fw
+                    |  15 mins ago
+                  strong.pull-right.primary-font Bhaumik Patel
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+        // /.panel-body
+        .panel-footer
+          .input-group
+            input#btn-input.form-control.input-sm(type='text', placeholder='Type your message here...')
+            |                                 
+            span.input-group-btn
+              button#btn-chat.btn.btn-warning.btn-sm
+                | Send
+        // /.panel-footer
+      // /.panel .chat-panel
+    // /.col-lg-4
+  // /.row
